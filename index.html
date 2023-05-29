@@ -1,0 +1,111 @@
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="elements.js"></script>    
+    <title>qnbby</title>
+</head>
+<body>
+    <div class='border' id='title'>
+        <h1>yoyo<h1>
+    </div>
+    <div class='border flex-parent jc-center'>
+        <button class="button-drop-down margin-right" onClick="document.getElementById('about').scrollIntoView();">About</button>
+        <button class="button-drop-down margin-right" onClick="document.getElementById('games').scrollIntoView();">Games</button>
+        <button class="button-drop-down margin-right" onClick="document.getElementById('kdrama').scrollIntoView();">K-Drama</button>
+        <button class="button-drop-down margin-right" onClick="document.getElementById('movie').scrollIntoView();">Movies</button>
+        <button class="button-drop-down margin-right" onClick="document.getElementById('music').scrollIntoView();">Music</button>
+        <button class="button-drop-down" onClick="document.getElementById('ss').scrollIntoView();">Social Media</button>
+    </div>
+    <div id="about" class="border panels-g1">
+        <section class="panel-1">
+            <h4 style="text-align: center;"><u>About Me</u></h4> 
+            <img src="portrait.jpg" alt="My Funny Face">   
+            <h5>Quan Nguyen<br>
+                UCF 2024 - Computer Engineering
+            </h5>
+            
+        </section>
+        <section class="panel-2">
+            <h4 style="text-align: center;"><u>Experience</u></h4>
+            <br>
+                <h5>Web Development<br>
+                    Java<br>
+                    Python
+                </h5>
+            </br>
+        </section>
+    </div>
+    <div id="games" class="border">
+        <section style="text-align: center;">
+            <h4>Games I Play</h4> 
+            <py-script>
+                from riotwatcher import LolWatcher, ApiError
+            </py-script>
+        </section>
+        <section>
+            Hello world! <br>
+            This is the current date and time, as computed by Python:
+            <py-script>
+                from datetime import datetime
+                now = datetime.now()
+                display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+            </py-script>
+        </section>
+    </div>
+    <div id="kdrama" class="border">
+        <section style="text-align: center;">
+            <h4>K-drama Review</h4>
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+        </section> 
+    </div>
+    <div id="movie" class="border">
+        <section style="text-align: center;">
+            <h4>Movie Review</h4>
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+        </section>
+    </div>
+    <div id="music" class="border">
+        <section style="text-align: center;">
+            <h4>Music</h4>
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello 
+            hello hello hello hello hello hello hello hello
+        </section>
+    </div>
+    <div id="ss" class="border">
+        <section style="text-align: center;">
+            <h4>Social Media</h4>
+            Replace with style buttons to redirect
+        </section>
+    </div>
+</body>
+</html>
