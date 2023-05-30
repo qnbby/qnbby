@@ -95,7 +95,16 @@
 .dropdown>ul .luxbar-item {min-width:100%;height:29px;padding:5px 10px 5px 40px}
 .dropdown>ul .luxbar-item a {min-height:29px;line-height:29px;padding:0}
 @media screen and (min-width: 768px) {
-    .luxbar-navigation{flex-flow:row;justify-content:flex-end}.luxbar-hamburger{display:none}.luxbar-checkbox:not(:checked) ~ .luxbar-menu{overflow:visible}.luxbar-checkbox:checked ~ .luxbar-menu{height:58px}.luxbar-menu .luxbar-item{border-top:0}.luxbar-menu-right .luxbar-header{margin-right:auto}.dropdown{height:58px}.dropdown:hover>ul{position:absolute;left:0;top:58px;padding:0}.dropdown>ul{display:none}.dropdown>ul .luxbar-item{padding:5px 10px}.dropdown>ul .luxbar-item a{white-space:nowrap}
+    .luxbar-navigation{flex-flow:row;justify-content:flex-end}
+    .luxbar-hamburger{display:none}
+    .luxbar-checkbox:not(:checked) ~ .luxbar-menu{overflow:visible}
+    .luxbar-checkbox:checked ~ .luxbar-menu{height:58px}
+    .luxbar-menu .luxbar-item{border-top:0}
+    .luxbar-menu-right .luxbar-header{margin-right:auto}
+    .dropdown{height:58px}
+    .dropdown:hover>ul{position:absolute;left:0;top:58px;padding:0}
+    .dropdown>ul{display:none}.dropdown>ul .luxbar-item{padding:5px 10px}
+    .dropdown>ul .luxbar-item a{white-space:nowrap}
 }
 .luxbar-checkbox:checked+.luxbar-menu .luxbar-hamburger-doublespin span::before{transform:rotate(225deg)}
 .luxbar-checkbox:checked+.luxbar-menu .luxbar-hamburger-doublespin span::after{transform:rotate(-225deg)}
@@ -104,28 +113,4 @@
 .luxbar-menu-dark,.luxbar-menu-dark .dropdown ul{background-color:#212121;color:#fff}
 .luxbar-menu-dark .active,.luxbar-menu-dark .luxbar-item:hover{background-color:#424242}
 .luxbar-menu-dark .luxbar-hamburger span,.luxbar-menu-dark .luxbar-hamburger span::before,.luxbar-menu-dark .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-light,.luxbar-menu-light .dropdown ul{background-color:#e0e0e0;color:#212121}
-.luxbar-menu-light .active,.luxbar-menu-light .luxbar-item:hover{background-color:#bdbdbd}
-.luxbar-menu-light .luxbar-hamburger span,.luxbar-menu-light .luxbar-hamburger span::before,.luxbar-menu-light .luxbar-hamburger span::after{background-color:#212121}
-.luxbar-menu-material-red,.luxbar-menu-material-red .dropdown ul{background-color:#b71c1c;color:#fff}
-.luxbar-menu-material-red .active,.luxbar-menu-material-red .luxbar-item:hover{background-color:#c62828}
-.luxbar-menu-material-red .luxbar-hamburger span,.luxbar-menu-material-red .luxbar-hamburger span::before,.luxbar-menu-material-red .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-indigo,.luxbar-menu-material-indigo .dropdown ul{background-color:#1a237e;color:#fff}
-.luxbar-menu-material-indigo .active,.luxbar-menu-material-indigo .luxbar-item:hover{background-color:#283593}
-.luxbar-menu-material-indigo .luxbar-hamburger span,.luxbar-menu-material-indigo .luxbar-hamburger span::before,.luxbar-menu-material-indigo .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-green,.luxbar-menu-material-green .dropdown ul{background-color:#1b5e20;color:#fff}
-.luxbar-menu-material-green .active,.luxbar-menu-material-green .luxbar-item:hover{background-color:#2e7d32}
-.luxbar-menu-material-green .luxbar-hamburger span,.luxbar-menu-material-green .luxbar-hamburger span::before,.luxbar-menu-material-green .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-amber,.luxbar-menu-material-amber .dropdown ul{background-color:#ff6f00;color:#fff}
-.luxbar-menu-material-amber .active,.luxbar-menu-material-amber .luxbar-item:hover{background-color:#ff8f00}
-.luxbar-menu-material-amber .luxbar-hamburger span,.luxbar-menu-material-amber .luxbar-hamburger span::before,.luxbar-menu-material-amber .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-brown,.luxbar-menu-material-brown .dropdown ul{background-color:#3e2723;color:#fff}
-.luxbar-menu-material-brown .active,.luxbar-menu-material-brown .luxbar-item:hover{background-color:#4e342e}
-.luxbar-menu-material-brown .luxbar-hamburger span,.luxbar-menu-material-brown .luxbar-hamburger span::before,.luxbar-menu-material-brown .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-bluegrey,.luxbar-menu-material-bluegrey .dropdown ul{background-color:#263238;color:#fff}
-.luxbar-menu-material-bluegrey .active,.luxbar-menu-material-bluegrey .luxbar-item:hover{background-color:#37474f}
-.luxbar-menu-material-bluegrey .luxbar-hamburger span,.luxbar-menu-material-bluegrey .luxbar-hamburger span::before,.luxbar-menu-material-bluegrey .luxbar-hamburger span::after{background-color:#fff}
-.luxbar-menu-material-cyan,.luxbar-menu-material-cyan .dropdown ul{background-color:#006064;color:#fff}
-.luxbar-menu-material-cyan .active,.luxbar-menu-material-cyan .luxbar-item:hover{background-color:#00838f}
-.luxbar-menu-material-cyan .luxbar-hamburger span,.luxbar-menu-material-cyan .luxbar-hamburger span::before,.luxbar-menu-material-cyan .luxbar-hamburger span::after{background-color:#fff}
 /*# sourceMappingURL=luxbar.min.css.map */
