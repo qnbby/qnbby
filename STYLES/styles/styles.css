@@ -1,0 +1,15 @@
+/* mains */
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    cursor: url('./cursor/default.cur'), auto;
+}
+
+
+/* classes */
+.border {
+    border: 2px solid red;
+}
+.luxbar-item:hover, .item:hover, .luxbar-brand:hover {
+  cursor: url('./cursor/precision-select.cur'), auto;
+}
