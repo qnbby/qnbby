@@ -1,0 +1,22 @@
+body {
+    background-color: #2C363F;
+}
+
+.name-container {
+    border: 2px solid;
+    color: white;
+    display: grid;
+    align-self: center;
+    text-align: center;
+    align-content: center;;
+    width: 70%;
+    height: 150px;
+    padding: 10px;
+    margin: auto;
+    border-radius:10px;
+    font-size:6vw;
+    margin-top: 50px;
+}
+
+
+  
