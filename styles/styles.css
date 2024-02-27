@@ -8,7 +8,7 @@ body {
     display: grid;
     align-self: center;
     text-align: center;
-    align-content: center;;
+    align-content: center;
     width: 70%;
     height: 150px;
     padding: 10px;
@@ -16,7 +16,27 @@ body {
     border-radius:10px;
     font-size:6vw;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
+.nav-button-center {
+    text-align: center;
+    margin-inline: 30px;
+}
+.nav-button {
+    background-color: #2C363F;
+    border: 2px solid;
+    border-color: white;
+    width: 7%;
+    height: 30px;
+    font-size: 1vw;
+    color:white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
 
+.nav-button:hover {
+    background-color: white;
+    color: black;
+}
   
