@@ -16,7 +16,7 @@ body {
     border-radius:10px;
     font-size:6vw;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .nav-button-center {
@@ -27,9 +27,9 @@ body {
     background-color: #2C363F;
     border: 2px solid;
     border-color: white;
-    width: 7%;
-    height: 30px;
-    font-size: 1vw;
+    width: 13%;
+    height: 35px;
+    font-size: 1.5vw;
     color:white;
     border-radius: 5px;
     margin-right: 20px;
@@ -38,5 +38,12 @@ body {
 .nav-button:hover {
     background-color: white;
     color: black;
+}
+
+.about-section {
+    margin-top: 50px;
+    margin-left: 5%;
+    color: white;
+    font-size: 2vw;
 }
   
